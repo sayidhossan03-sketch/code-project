@@ -1,0 +1,131 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-image: url(greatpc.jpg);
+  background-size: 100% ;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+.preant{
+  background-color: rgb(45, 122, 180);
+  height: 70px;
+  text-align: center;
+  color: aliceblue;
+}
+.navbar ul{
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+  list-style: none;
+}
+.navbar  li  {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 20px;
+  margin-right: 30px;
+  text-align: center;
+}
+.preant img{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+}
+.navbar  li a{
+  text-decoration: none;
+  color: rgb(11, 63, 177);
+  font-style: inherit;
+  font-size: 16px;
+}
+.navbar  li a:hover{
+  background-color: blueviolet;
+  border-radius: 5%;
+  padding: 8px 10px;
+}
+.child{
+  text-align: center;
+  margin-top: 180px;
+  color: rgb(245, 10, 57);
+  font-size: 180%;
+}
+.child p{
+  margin-top: 30px;
+  color: rgb(240, 236, 236);
+  font-size: 20px;
+}
+.samll{
+  background-color: rgb(253, 253, 252);
+  width: 100%;
+  height: 98px;
+  border: 2px rgb(109, 99, 99) solid;
+  margin-bottom: 2px;
+}
+.samll ul{
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  height: 100px;
+  text-align: center;
+}
+.samll  li{
+  display: inline-block;
+  position: relative;
+  padding: 30px 40px;
+}
+.samll li a{
+  display: block;
+  text-decoration: none;
+}
+.samll  ul li a:hover{
+  border-radius: 10px;
+  background-color: rgb(8, 235, 235);
+  padding: 20px 25px;
+}
+.samll ul ul {
+  position: absolute;
+  left: 40px;
+  top: 90px;
+  background-color: blanchedalmond;
+  width: 200px;
+  display: none;
+}
+.samll ul ul li {
+  padding: 0px 0px;
+  display: block;
+}
+.samll ul ul li a:hover{
+  background-color: aqua;
+}
+.samll ul li:hover ul{
+  display: block; 
+}
+.samll ul li:hover  a{
+  border-radius: 10px;
+  background-color: rgb(6, 240, 228);
+  padding: 20px 25px;
+}
+.samll ul li:hover li a{
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  padding: 20px 25px;
+}
+.samll ul ul li a:hover{
+  background-color: aqua;
+}
+#big{
+  
+  border: 4px wheat solid;
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+}
+#see{
+  width: 100%;
+  height: 200px;
+}
